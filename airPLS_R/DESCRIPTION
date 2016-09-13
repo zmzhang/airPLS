@@ -1,0 +1,12 @@
+Package: airPLS
+Type: Package
+Title: adaptive iteratively reweighted Penalized Least Squares for baseline correction
+Version: 3.0.0
+Date: 2014-10-21
+Depends: R (>= 3.0.0), Matrix
+Suggests:
+Author: Yizeng Liang, Zhimin Zhang, Shan Chen
+Maintainer: Zhimin Zhang <zhangzhimin.csu@gmail.com>
+Description: adaptive iteratively reweighted Penalized Least Squares for baseline correction
+License: LGPL version 2 or newer
+Packaged: Wen Oct 21 20:40:21 2014;
