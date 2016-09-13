@@ -59,7 +59,7 @@ We have already noticed the parameter optimizing problem in R and Matlab version
 
 For any questions, please contact:
 
-	Zhi-Min Zhang: [zmzhang@csu.edu.cn](mailto:zmzhang@csu.edu.cn)
+[zmzhang@csu.edu.cn](mailto:zmzhang@csu.edu.cn)
 
 # 4. How to cite#
 
