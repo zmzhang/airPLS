@@ -50,14 +50,16 @@ Python version of airPLS using the scipy framework by Renato Lombardo of Univers
 
 We have already noticed the parameter optimizing problem in R and Matlab version of airPLS. So we have rewritten this airPLS algorithm in C++ and MFC (Visual Studio 2010) to provide a better user interface for baseline-correction. One can tune the lambda parameter by dragging the slider easily.
 
-It can be downloaded from this [url](https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS2.0.exe)
+
+- It can be downloaded from this [url](https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS2.0.exe)
+- Click the downloaded exe file, install it in your computer and run the installed program.
 
 
 # 3. Contact #
 
 For any questions, please contact:
 
-	Zhi-Min Zhang: zmzhang@csu.edu.cn
+	Zhi-Min Zhang: [zmzhang@csu.edu.cn](mailto:zmzhang@csu.edu.cn)
 
 # 4. How to cite#
 
