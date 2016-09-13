@@ -8,7 +8,7 @@
 ## 2.1 MATLAB version ##
 
 - Install MATLAB 6.5 or higher in you computer.
-- download, unzip and enjoy it from this url.
+- download, unzip and enjoy it from this [url](https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS.2.0.matlab.rar).
 
 ## 2.2 R version ##
 
@@ -22,9 +22,9 @@ By taking the advantage of sparse matrix in R package "Matrix", we implemented t
 
 - Then, download the airPLS package from this project download pages.
 
-	for linux: 
+	for linux: https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS_2.0.0.tar.gz
 	
-	for windows: 
+	for windows: https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS_2.0.0.zip
 
 ## 2.3 Python version ##
 
@@ -44,13 +44,13 @@ Python version of airPLS using the scipy framework by Renato Lombardo of Univers
 	pip install scipy
 	pip install matplotlib
 	```
-- clone this project and running airPLS.py
+- clone this project and running [airPLS.py](https://raw.githubusercontent.com/zmzhang/airPLS/master/airPLS.py)
 
 ## 2.4 C++ version ##
 
 We have already noticed the parameter optimizing problem in R and Matlab version of airPLS. So we have rewritten this airPLS algorithm in C++ and MFC (Visual Studio 2010) to provide a better user interface for baseline-correction. One can tune the lambda parameter by dragging the slider easily.
 
-It can be downloaded from url
+It can be downloaded from this [url](https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS2.0.exe)
 
 
 # 3. Contact #
