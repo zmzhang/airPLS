@@ -15,6 +15,7 @@
 By taking the advantage of sparse matrix in R package "Matrix", we implemented the sparse version of whittaker smoother and airPLS alogrithm. Now the speed of airPLS 2.0 is faster than airPLS 1.0 by 100 times or more.
 
 - install airPLS R version from github with following R scripts
+
 	```shell
 	install.packages('devtools')
 	library(devtools)
@@ -22,6 +23,7 @@ By taking the advantage of sparse matrix in R package "Matrix", we implemented t
 	install_github("zmzhang/airPLS_R")
 	```
 - load airPLS package and run example with following R scripts
+
 	```shell
 	library(airPLS)
 	?simulate
