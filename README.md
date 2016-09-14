@@ -14,17 +14,18 @@
 
 By taking the advantage of sparse matrix in R package "Matrix", we implemented the sparse version of whittaker smoother and airPLS alogrithm. Now the speed of airPLS 2.0 is faster than airPLS 1.0 by 100 times or more.
 
-- Firstly, you must download and install R 2.12.2 from the urls as follows:
-
-	for linux: http://cran.r-project.org/src/base/R-2/R-2.12.2.tar.gz
-	
-	for windows: http://cran.r-project.org/bin/windows/base/old/2.12.2/R-2.12.2-win.exe
-
-- Then, download the airPLS package from this project download pages.
-
-	for linux: https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS_2.0.0.tar.gz
-	
-	for windows: https://github.com/zmzhang/airPLS/releases/download/2.0/airPLS_2.0.0.zip
+- install airPLS R version from github with following R scripts
+	```R
+	install.packages('devtools')
+	library(devtools)
+	httr::set_config( httr::config( ssl_verifypeer = 0L ) )
+	install_github("zmzhang/airPLS_R")
+	```
+- load airPLS package and run example with following R scripts
+	```R
+	library(airPLS)
+	?simulate
+	```
 
 ## 2.3 Python version ##
 
