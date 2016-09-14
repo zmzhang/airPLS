@@ -47,7 +47,7 @@ Python version of airPLS using the scipy framework by Renato Lombardo of Univers
 	pip install scipy
 	pip install matplotlib
 	```
-- clone this project and running [airPLS.py](https://raw.githubusercontent.com/zmzhang/airPLS/master/airPLS.py)
+- clone this project and run [airPLS.py](https://raw.githubusercontent.com/zmzhang/airPLS/master/airPLS.py)
 
 ## 2.4 C++ version ##
 
