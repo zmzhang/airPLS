@@ -1,0 +1,3 @@
+[submodule "airPLS_R"]
+	path = airPLS_R
+	url = git@github.com:zmzhang/airPLS_R.git

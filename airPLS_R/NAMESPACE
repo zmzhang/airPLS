@@ -1,6 +1,0 @@
-importFrom("Matrix", spMatrix, diff, t, solve)
-
-export(
-       "airPLS",
-	   "WhittakerSmooth"
-       )
