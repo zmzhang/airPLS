@@ -73,4 +73,4 @@ Z.-M. Zhang, S. Chen, and Y.-Z. Liang, Baseline correction using adaptive iterat
 
 [Download pdf and endnote citation here if you have subscription of RSC](http://pubs.rsc.org/is/content/articlelanding/2010/an/b922045c)
 
-[Download manuscript of airPLS here if you doesn't have subscription of RSC](https://github.com/zmzhang/airPLS/raw/master/airPLS_manuscript.pdf)
+[Download manuscript of airPLS here if you doesn't have subscription of RSC](https://github.com/zmzhang/airPLS/blob/master/airPLS_manuscript.pdf)
