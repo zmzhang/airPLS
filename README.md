@@ -67,7 +67,7 @@ For any questions, please contact:
 
 [zmzhang@csu.edu.cn](mailto:zmzhang@csu.edu.cn)
 
-# 4. Manuscript and citation#
+# 4. Manuscript and citation #
 
 Z.-M. Zhang, S. Chen, and Y.-Z. Liang, Baseline correction using adaptive iteratively reweighted penalized least squares. Analyst 135 (5), 1138-1146 (2010).
 
