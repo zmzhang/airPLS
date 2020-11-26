@@ -1,4 +1,4 @@
-# 1. Intorduction #
+# 1. Introduction #
 
 *adaptive iteratively reweighted Penalized Least Squares (airPLS) algorithm doesn’t require any user intervention and prior information, such as detected peaks. It iteratively changes weights of sum squares errors (SSE) between the fitted baseline and original signals, and the weights of SSE are obtained adaptively using between previously fitted baseline and original signals. This baseline estimator is fast and flexible in fitting baseline.*
 
