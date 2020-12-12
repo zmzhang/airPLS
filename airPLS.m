@@ -40,6 +40,10 @@ if nargin < 6
   end
 end
 
+if isa(X,'single')
+   X = double(X); 
+end
+
 [m,n]=size(X);
 wi = [1:ceil(n*wep) floor(n-n*wep):n];
 D = diff(speye(n), order);
