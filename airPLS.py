@@ -75,7 +75,7 @@ def airPLS(x, lambda_=100, porder=1, itermax=15):
         d=x-z
         dssn=np.abs(d[d<0].sum())
         if(dssn<0.001*(abs(x)).sum() or i==itermax):
-            if(i==itermax): print 'WARING max iteration reached!'
+            if(i==itermax): print('WARING max iteration reached!')
             break
         w[d>=0]=0 # d>0 means that this point is part of a peak, so its weight is set to 0 in order to ignore it
         w[d<0]=np.exp(i*np.abs(d[d<0])/dssn)
@@ -87,7 +87,7 @@ if __name__=='__main__':
     '''
     Example usage and testing
     '''
-    print 'Testing...'
+    print('Testing...')
     from scipy.stats import norm
     import matplotlib.pyplot as pl
     x=np.arange(0,1000,1)
@@ -98,13 +98,13 @@ if __name__=='__main__':
     baseline1=5e-4*x+0.2 # linear baseline
     baseline2=0.2*np.sin(np.pi*x/x.max()) # sinusoidal baseline
     noise=np.random.random(x.shape[0])/500
-    print 'Generating simulated experiment'
+    print('Generating simulated experiment')
     y1=signal+baseline1+noise
     y2=signal+baseline2+noise
-    print 'Removing baselines' 
+    print('Removing baselines')
     c1=y1-airPLS(y1) # corrected values
     c2=y2-airPLS(y2) # with baseline removed
-    print 'Plotting results'
+    print('Plotting results')
     fig,ax=pl.subplots(nrows=2,ncols=1)
     ax[0].plot(x,y1,'-k')
     ax[0].plot(x,c1,'-r')
@@ -113,5 +113,5 @@ if __name__=='__main__':
     ax[1].plot(x,c2,'-r')
     ax[1].set_title('Sinusoidal baseline')
     pl.show()
-    print 'Done!'
-
+    print('Done!')
+
