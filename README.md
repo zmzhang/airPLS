@@ -39,8 +39,8 @@ Python version of airPLS using the scipy framework by Renato Lombardo of Univers
 
 
 - Install Python
-	Python 2.7 is recommended
-	https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi
+	Python 3 is recommended
+	https://www.python.org/download
 
 
 - Install Numpy, Scipy, Matplotlib with following commands 
