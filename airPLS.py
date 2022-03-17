@@ -47,11 +47,11 @@ def WhittakerSmooth(x,w,lambda_,differences=1):
     '''
     X=np.matrix(x)
     m=X.size
-    i=np.arange(0,m)
     E=eye(m,format='csc')
-    D=E[1:]-E[:-1] # numpy.diff() does not work with sparse matrix. This is a workaround.
+    for i in range(differences):
+        E=E[1:]-E[:-1] # numpy.diff() does not work with sparse matrix. This is a workaround.
     W=diags(w,0,shape=(m,m))
-    A=csc_matrix(W+(lambda_*D.T*D))
+    A=csc_matrix(W+(lambda_*E.T*E))
     B=csc_matrix(W*X.T)
     background=spsolve(A,B)
     return np.array(background)
